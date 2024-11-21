@@ -23,7 +23,7 @@ public class Prodotto {
         this.iva = iva;
     }
 
-    public void generaCodice() {
+    public int generaCodice() {
         return this.codice;
     }
 
